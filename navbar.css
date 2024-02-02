@@ -1,3 +1,6 @@
+body{
+    margin: 10px;
+}
 h1{
     text-align: center;
 }
@@ -17,4 +20,7 @@ h1{
 }
 .navbar a:hover{
     background-color: hsl(0, 0, 20)
+}
+.navbar li{
+    float: left;
 }
