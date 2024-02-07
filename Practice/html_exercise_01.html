@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    color: aliceblue;
 }
 </style>
 
@@ -26,52 +27,62 @@
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+        <br><hr>
     </nav>
-<h2>Input the following.</h2>
-<section>
-<form>
-<label for="username">Name: </label>
-<input type="text" id="username" name = "username"><br>
-<label for="password">Password: </label>
-<input type="text" id ="password" name = "password"><br>
 
-<input type="radio" id="gender_Male" name = "gender" value="male">
-<label for="gender_Male">Male</label>
-<input type="radio" id="gender_Female" name = "gender" value="female">
-<label for ="gender_Female">Female</label><br>
+    <section>
+        <h2>Input the following.</h2>
+        <form>
+        <label for="username">Name: </label>
+            <input type="text" id="username" name = "username"><br>
+            <label for="password">Password: </label>
+            <input type="text" id ="password" name = "password"><br>
+            <input type="radio" id="gender_Male" name = "gender" value="male">
+        <label for="gender_Male">Male</label>
+            <input type="radio" id="gender_Female" name = "gender" value="female">
+        <label for ="gender_Female">Female</label><br>
+            <input type="checkbox" name="accept_tc" id="accept_tc" value="accepted">
+        <label for="accept_tc">I have accepted the terms and condition.</label><br>
+            <input type="submit" value="Submit">
+        </form>
+        <br><hr>
+    </section>
 
-<input type="checkbox" name="accept_tc" id="accept_tc" value="accepted">
-<label for="accept_tc">I have accepted the terms and condition.</label><br>
-<input type="submit" value="Submit">
-</form>
-</section>
-<article>
-<table>
-<tr>
-<th>Name</th>
-<th>Age</th>
-<th>City</th>
-</tr>
-<tr>
-<td>John</td>
-<td>25</td>
-<td>New York</td>
-</tr>
-<tr>
-<td>Jane</td>
-<td>30</td>
-<td>Los Angeles</td>
-</tr>
-</table>
-</article>
-<video width="720" height="360" autoplay muted>
-<source src="Blackguydancing.mp4" type="video/mp4">
+    <section>
+        <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
 
-</video>
+        <tr>
+            <td>John</td>
+            <td>25</td>
+            <td>New York</td>
+        </tr>
 
-<audio controls autoplay muted>
-<source src = "SpongeBobThemeSong(RemixManiacsTrapRemix).mp3" type="audio/mpeg">
+        <tr>
+            <td>Jane</td>
+            <td>30</td>
+            <td>Los Angeles</td>
+        </tr>
+        </table>
+        <br><hr>
+    </section>
 
-</audio>
+
+    <section>
+        <video width="720" height="360" autoplay muted>
+        <source src="Blackguydancing.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section>
+        <audio controls autoplay muted>
+            <source src = "SpongeBobThemeSong(RemixManiacsTrapRemix).mp3" type="audio/mpeg">
+            </audio>
+    </section>
+
 </body>
 </html>
